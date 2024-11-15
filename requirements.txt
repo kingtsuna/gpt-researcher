@@ -30,6 +30,15 @@ unstructured
 json_repair
 json5
 loguru
+streamlit 
+requests 
+newspaper3k 
+google-generativeai 
+lxml[html_clean] 
+pandas 
+beautifulsoup4
+PyPDF2 
+nltk
 
 # uncomment for testing
 # pytest
