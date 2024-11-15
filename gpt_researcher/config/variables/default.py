@@ -2,11 +2,11 @@ from .base import BaseConfig
 
 DEFAULT_CONFIG: BaseConfig = {
     "RETRIEVER": "tavily",
-    "EMBEDDING": "openai:text-embedding-3-small",
+    "EMBEDDING": "google_genai:models/text-embedding-004",
     "SIMILARITY_THRESHOLD": 0.6,
-    "FAST_LLM": "openai:gpt-4o-mini",
-    "SMART_LLM": "openai:gpt-4o-2024-08-06",
-    "STRATEGIC_LLM": "openai:o1-preview",
+    "FAST_LLM": "google_genai:gemini-1.5-flash",
+    "SMART_LLM": "google_genai:gemini-1.5-pro",
+    "STRATEGIC_LLM": "google_genai:gemini-1.5-pro",
     "FAST_TOKEN_LIMIT": 2000,
     "SMART_TOKEN_LIMIT": 4000,
     "BROWSE_CHUNK_MAX_LENGTH": 8192,

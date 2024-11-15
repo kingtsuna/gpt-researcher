@@ -21,6 +21,7 @@ PyMuPDF
 requests
 jinja2
 aiofiles
+langchain_google_genai
 mistune
 python-docx
 htmldocx
