@@ -45,8 +45,8 @@ st.markdown(
 )
 
 # Display a logo at the top of the app
-# logo = Image.open("ernst-young-ey-logo.png")  # replace with your logo path
-# st.image(logo, width=100)  # Adjust width as needed
+logo = Image.open("ernst-young-ey-logo.png")  # replace with your logo path
+st.image(logo, width=100)  # Adjust width as needed
 
 # App title and input components
 st.title("Medical Insights from Trusted Sources")
